@@ -9,7 +9,7 @@
 }
 .offer__item {
   @media screen and (max-width: 767px) {
-    width: 450px;
+    width: auto;
 
     &:not(:last-child) {
       margin-bottom: 30px;
@@ -27,12 +27,14 @@
 }
 .offer__wrapper {
   @include FlexCenter();
+  padding-top: 41px;
+  padding-bottom: 20px;
 }
 .section__title--offer {
   font-family: Roboto;
   font-size: 30px;
   line-height: 35px;
-
+  text-align: center;
   color: #333333;
   margin-top: 137px;
 }

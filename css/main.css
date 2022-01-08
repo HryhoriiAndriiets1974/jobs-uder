@@ -108,7 +108,7 @@ p {
 
 @media screen and (max-width: 767px) {
   .offer__item {
-    width: 450px;
+    width: auto;
   }
   .offer__item:not(:last-child) {
     margin-bottom: 30px;
@@ -139,12 +139,15 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 41px;
+  padding-bottom: 20px;
 }
 
 .section__title--offer {
   font-family: Roboto;
   font-size: 30px;
   line-height: 35px;
+  text-align: center;
   color: #333333;
   margin-top: 137px;
 }/*# sourceMappingURL=main.css.map */
