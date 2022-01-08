@@ -1,0 +1,40 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-Anketa {
+  width: 0.779296875em;
+}
+
+.icon-group1 {
+  width: 1.1162109375em;
+}
+
+.icon-group2 {
+  width: 1.1171875em;
+}
+
+.icon-group3 {
+  width: 1.064453125em;
+}
+
+.icon-group4 {
+  width: 0.6630859375em;
+}
+
+.icon-logo {
+  width: 3.4404296875em;
+}
