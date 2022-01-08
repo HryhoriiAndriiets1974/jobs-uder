@@ -25,3 +25,14 @@
     margin: 15px;
   }
 }
+.offer__wrapper {
+  @include FlexCenter();
+}
+.section__title--offer {
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #333333;
+  margin-top: 137px;
+}
